@@ -8,16 +8,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
     />
-
-    <style>
-      .winner {
-        color: green;
-      }
-
-      .looser {
-        color: red;
-      }
-    </style>
   </head>
 
   <body>
@@ -29,7 +19,7 @@
               <div class="crad-image">
                 <figure class="image is-2by1">
                   <img
-                    src="images/Table-Tennis.jpg"
+                    src="/images/Table-Tennis.jpg"
                     alt="kid's playing 'table-Tennis'"
                   />
                 </figure>
@@ -70,14 +60,20 @@
               <footer class="card-footer">
                 <button
                   id="p1Button"
-                  class="is-primary button card-footer-item"
+                  class="is-primary button card-footer-item is-large"
                 >
                   +1 Player One
                 </button>
-                <button id="p2Button" class="is-info button card-footer-item">
+                <button
+                  id="p2Button"
+                  class="is-info button card-footer-item is-large"
+                >
                   +1 Player Two
                 </button>
-                <button id="reset" class="is-danger button card-footer-item">
+                <button
+                  id="reset"
+                  class="is-danger button card-footer-item is-large"
+                >
                   Reset
                 </button>
               </footer>
